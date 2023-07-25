@@ -1,0 +1,26 @@
+p {
+	color: darkblue;
+	background-color: chocolate;
+}
+
+.title {
+	background-color: red;
+}
+
+h2 {
+	background-color: cadetblue;
+}
+
+#red-text {
+	background-color: lightgreen;
+}
+
+ul li {
+	color: brown;
+}
+
+@media (max-width: 1024px) {
+	ul li {
+		color: darkgoldenrod;
+	}
+}

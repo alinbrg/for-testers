@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>form</title>
+	</head>
+	<body>
+		<form action="">
+			<div>
+				<label for="name">
+					name:
+					<input
+						type="email"
+						id="name"
+						placeholder="write your name"
+						required
+					/>
+				</label>
+			</div>
+			<div>
+				<label for="password">
+					password:
+					<input
+						type="password"
+						id="password"
+						placeholder="write your password"
+						required
+					/>
+				</label>
+			</div>
+			<div>
+				<label for="male">
+					<input type="radio" id="male" name="gender" />
+					male
+				</label>
+				<label for="female">
+					<input type="radio" id="female" name="gender" />
+					female
+				</label>
+				<label for="other">
+					<input type="radio" id="other" name="gender" />
+					other
+				</label>
+			</div>
+			<div>
+				<label for="read">
+					<input type="checkbox" id="read" />
+					read terms
+				</label>
+				<label for="agree">
+					<input type="checkbox" id="agree" />
+					agree terms
+				</label>
+			</div>
+			<button>submit</button>
+		</form>
+	</body>
+</html>
